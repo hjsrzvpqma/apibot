@@ -5,11 +5,11 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = " "--توکن بوت را درون " قرار دهید --
+local bot_api_key = "198541260:AAEvKHf-PbK0HFn6k97Qu-9VkuZPTAX8FUg"--توکن بوت را درون " قرار دهید --
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
-hi :)
+hi😊
 
 /hyper [`test`]
 - `test`
@@ -21,21 +21,21 @@ hi :)
 - _test_
 
 /hyper [[text](url)](url)
-- [BeatBot](BeatBot.ir)
+- [GemApi](telegram.me/GemApiBot)
 
 *EXAMPLE*
 
 /hyper [`Hi`]
-[*I'm a api bot* ]
-[_BeatBot Team created me_]
-[[BeatBot Channel](test)][(http://telegram.me/beatbot_team)]
+[*I'm a gem api bot* ]
+[_Gem Team created me_]
+[[Gem Team channel](test)][(http://telegram.me/GemTeam)]
 
 *RESULT*
 
 `Hi`
-*I'm a api bot* 
+*I'm a gem api bot* 
 _BeatBot Team created me_
-[BeatBot Channel](http://telegram.me/beatbot_team)
+[Gem Team channel](http://telegram.me/beatbot_team)
 
 *OTHER*
 
@@ -48,7 +48,7 @@ _BeatBot Team created me_
 *webshot*
 `/webshot url`
 
-_TNX TO USE ME :)_
+_Thanx To Use Me 🤗_
 ]] 
 
 -------
@@ -57,7 +57,7 @@ _TNX TO USE ME :)_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {94746365}-- put your id here
+  local admins = {90285047}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
