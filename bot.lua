@@ -34,8 +34,8 @@ hi😊
 
 `Hi`
 *I'm a gem api bot* 
-_BeatBot Team created me_
-[Gem Team channel](http://telegram.me/beatbot_team)
+_Gem Team created me_
+[Gem Team channel](http://telegram.me/GemTeam)
 
 *OTHER*
 
@@ -207,7 +207,7 @@ function bot_run()
 
 	bot = bot.result
 
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." \nBeatBot hyper bot :)\ntnx to @imandaneshi & @Unfriendly\neditor: @amirho3inf \nchannel : @BeatBot_Team"
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." \nGemTeam hyper bot :)\ntnx to @imandaneshi & @Unfriendly\neditor: @amirho3inf \nchannel : @GemTeam"
 
 	print(bot_info)
 
@@ -263,7 +263,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/beatbot_team)]], true, false, true)
+  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید ☺](http://telegram.me/GemTeam)]], true, false, true)
 return end
 
 end
